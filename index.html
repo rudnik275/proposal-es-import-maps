@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<div id="app"></div>
+
+<script type="module">
+  import ModuleShim from '/node_modules/ub-modules-shim/ub-modules-shim.js'
+
+  const moduleShim = new ModuleShim({
+    vue: './node_modules/vue/dist/vue.runtime.esm-browser.js'
+  }, '/index.js')
+
+  // TODO: import sfc compiler from @vue/compiler-sfc
+  // moduleShim.registerTransformation(
+  //   path => path.endsWith('.vue'),
+  //   function sfcCompile (source) {
+  //     const sfc = { script:'', style: '' }//compile(source)
+  //     const style = document.createElement('style')
+  //     style.innerHTML = sfc.style
+  //     document.body.append(style)
+  //     return source.script
+  //   }
+  // )
+  moduleShim.initialize()
+</script>
+</body>
+</html>

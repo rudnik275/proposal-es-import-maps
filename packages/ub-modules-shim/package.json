@@ -1,0 +1,8 @@
+{
+  "name": "ub-modules-shim",
+  "version": "1.0.0",
+  "dependencies": {
+    "es-module-lexer": "^0.3.26",
+    "es-module-shims": "^0.7.1"
+  }
+}
