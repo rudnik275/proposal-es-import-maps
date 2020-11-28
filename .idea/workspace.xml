@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37897721-e76c-4a20-8e40-079dbac8b7db" name="Default Changelist" comment="" />
+    <list default="true" id="37897721-e76c-4a20-8e40-079dbac8b7db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/ub-modules-shim/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/divText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ub-modules-shim/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ub-modules-shim/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ub-modules-shim/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ub-modules-shim/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ub-modules-shim/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ub-modules-shim/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ub-modules-shim/ub-modules-shim.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ub-modules-shim/ub-modules-shim.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kmVaggMllQYHuS1IphrMag6vVh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,12 +39,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/ub-modules-shim" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dep" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/ub-modules-shim" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -41,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606305819495</updated>
       <workItem from="1606305820536" duration="18991000" />
+      <workItem from="1606574600995" duration="21620000" />
     </task>
     <servers />
   </component>

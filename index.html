@@ -12,13 +12,12 @@
 <div id="app"></div>
 
 <script type="module">
-  import ModuleShim from '/node_modules/ub-modules-shim/ub-modules-shim.js'
+  import ModuleShim from '/node_modules/ub-modules-shim/dist/ub-modules-shim.js'
 
   const moduleShim = new ModuleShim({
-    vue: './node_modules/vue/dist/vue.runtime.esm-browser.js'
-  }, '/index.js')
+    vue: '/node_modules/vue/dist/vue.runtime.esm-browser.js'
+  })
 
-  // TODO: import sfc compiler from @vue/compiler-sfc
   // moduleShim.registerTransformation(
   //   path => path.endsWith('.vue'),
   //   function sfcCompile (source) {
@@ -29,7 +28,6 @@
   //     return source.script
   //   }
   // )
-  moduleShim.initialize()
 </script>
 </body>
 </html>

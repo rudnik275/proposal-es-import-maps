@@ -13,8 +13,7 @@
     "http-serve": "^1.0.1"
   },
   "dependencies": {
-    "@vue/compiler-sfc": "^3.0.2",
-    "vue": "^3.0.2",
-    "ub-modules-shim": "./packages/ub-modules-shim"
+    "ub-modules-shim": "./packages/ub-modules-shim",
+    "vue": "^3.0.2"
   }
 }

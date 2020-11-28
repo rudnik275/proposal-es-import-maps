@@ -1,8 +1,14 @@
 {
   "name": "ub-modules-shim",
   "version": "1.0.0",
+  "scripts": {
+    "build": "esbuild ub-modules-shim.js --bundle --outfile=dist/ub-modules-shim.js --format=esm"
+  },
   "dependencies": {
     "es-module-lexer": "^0.3.26",
     "es-module-shims": "^0.7.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.8.16"
   }
 }
